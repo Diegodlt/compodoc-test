@@ -1,0 +1,14 @@
+.left{
+    border: 1px solid blue;
+    width: 30%;
+}
+
+.right{
+    border: 1px solid black;
+    width: 70%;
+}
+
+.container{
+   display: flex;
+   height: 100%;
+}

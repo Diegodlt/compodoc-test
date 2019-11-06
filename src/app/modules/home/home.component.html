@@ -1,0 +1,29 @@
+
+<div class="container">
+    <div class="left">
+        <ul>
+            <li>
+                <a  class="sidebar-sub-option" [routerLink]="['/one']" [routerLinkActive]="['router-link-active']">
+                    One
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a  class="sidebar-sub-option" [routerLink]="['/two']" [routerLinkActive]="['router-link-active']">
+                    Two
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a  class="sidebar-sub-option" [routerLink]="['/three']" [routerLinkActive]="['router-link-active']">
+                    Three
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="right">
+        <router-outlet></router-outlet>
+    </div>
+</div>
